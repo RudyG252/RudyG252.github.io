@@ -10,8 +10,10 @@ html {
   height: 100%;
 }
 
+
 body {
   background: var(--cg-grey);
+  background-color: #aaa7cc;
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -102,7 +104,6 @@ main {
   flex-direction: row;
   max-width: 100%;
   margin: 1em 0 2em 0;
-
   /* Debug border */
   /* border: 2px solid blue; */
 }
@@ -134,7 +135,7 @@ main {
   padding: 0 20px;
   margin: 0px;
   line-height: 1.5;
-  overflow: scroll;
+  overflow: hidden;
 
   flex-direction: column;
   text-align: center;
@@ -151,6 +152,10 @@ main {
   letter-spacing: 1px;
 }
 
+
+.project-image:hover {
+  transform: scale(1.05)
+}
 .project-details a:hover {
   color: var(--cg-blue);
   text-decoration: underline;
@@ -218,10 +223,30 @@ main {
   background-color: var(--cg-blue);
 }
 
+.resume {
+  border: 2px solid black;
+  padding: 8px;
+  background-color: #f7c19b;
+  margin-bottom: 10px;
+}
+
+
+
 .resume h2 {
   font-family: Georgia;
 }
 
+.resume a {
+  color: white;
+  background-color: black;
+}
+.resume a:hover {
+  color: grey;
+}
+
+.entry-list > li {
+  margin-top: 10px;
+}
 /* CSS for contact form */
 
 label {
