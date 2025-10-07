@@ -189,6 +189,10 @@ main {
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 
+.about-me-list > li {
+  font-size: 15px;
+}
+
 .about-text {
   flex: 1;
   margin-left: 20px;
@@ -228,6 +232,11 @@ main {
   padding: 8px;
   background-color: #f7c19b;
   margin-bottom: 10px;
+  
+}
+
+.resume:hover {
+  transform: scale(1.01)
 }
 
 
