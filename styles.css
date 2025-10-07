@@ -128,7 +128,7 @@ main {
 
 .project-details {
   display: flex;
-  background-color: var(--cg-white);
+  background-color: #f7c19b;
   width: 30%;
   height: 500px;
   flex-shrink: 1;
@@ -152,10 +152,6 @@ main {
   letter-spacing: 1px;
 }
 
-
-.project-image:hover {
-  transform: scale(1.05)
-}
 .project-details a:hover {
   color: var(--cg-blue);
   text-decoration: underline;
@@ -177,7 +173,7 @@ main {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: #f8f8f8;
+  background-color: #f7c19b;
   border: 1px solid #ccc;
   border-radius: 5px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
