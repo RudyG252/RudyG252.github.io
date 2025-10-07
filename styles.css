@@ -232,7 +232,7 @@ main {
   padding: 8px;
   background-color: #f7c19b;
   margin-bottom: 10px;
-  
+  transition: transform .2s
 }
 
 .resume:hover {
